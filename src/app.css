@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'Work Sans';
+  src: url('/public/fonts/WorkSans.ttf');
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  font-style: italic;
+  src: url('/public/fonts/WorkSans-Italic.ttf');
+}
+
+@font-face {
+  font-family: 'Karla';
+  src: url('/public/fonts/Karla.ttf');
+}
+
+@font-face {
+  font-family: 'Karla';
+  font-style: italic;
+  src: url('/public/fonts/Karla-Italic.ttf');
+}
+
+:root {
+  --cyan: #51ccea;
+  --yellow: #ffda54;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #111;
+  color: #eeeeee;
+  font-family: 'Work Sans', sans-serif;
+}
